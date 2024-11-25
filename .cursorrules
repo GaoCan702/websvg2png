@@ -1,0 +1,33 @@
+{
+    // SVG to PNG Chrome Extension
+    // A browser extension built with Plasmo Framework (https://www.plasmo.com)
+    // 
+    // Core Features:
+    // - Convert selected SVG elements to PNG images
+    // - Side panel UI for better user interaction
+    // - Deep SVG scanning (including iframes and shadow DOM)
+    // - One-click download functionality
+    //
+    // Technical Stack:
+    // - Framework: Plasmo (React/TypeScript based)
+    // - UI: Chrome Side Panel API
+    // - DOM Handling: Supports iframe and shadow DOM traversal
+    //
+    // This project follows modern web development best practices
+    
+    "rules": {
+        // Use spaces for consistent cross-platform compatibility
+        "indent": {
+            "type": "spaces",
+            "size": 4
+        },
+        // Use LF for line endings (Unix-style)
+        "lineEnding": "lf",
+        // Remove unnecessary whitespace
+        "trimTrailingWhitespace": true,
+        // Ensure files end with a newline
+        "insertFinalNewline": true,
+        // Keep lines readable and prevent horizontal scrolling
+        "maxLineLength": 100
+    }
+} 
